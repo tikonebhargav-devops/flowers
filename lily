@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily Flower</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5fff5;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #cccccc;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #e75480;
+        }
+
+        p {
+            color: #444;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #e75480;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🌸 Lily Flower</h1>
+
+        <img
+            src="https://images.unsplash.com/photo-1520763185298-1b434c919102?w=800"
+            alt="Beautiful flowers"
+        >
+
+        <h2>About Lily</h2>
+
+        <p>
+            Lily is a beautiful flowering plant known for its
+            elegant petals, attractive colors, and pleasant fragrance.
+            It symbolizes purity, beauty, and love.
+        </p>
+
+        <button onclick="showMessage()">
+            Learn More
+        </button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Lily represents purity, beauty and elegance!");
+        }
+    </script>
+
+</body>
+</html>
